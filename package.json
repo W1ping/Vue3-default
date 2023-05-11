@@ -1,0 +1,39 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vite --mode dev",
+    "build": "vite build --mode prod",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.1.2",
+    "element-plus": "^2.3.4",
+    "pinia": "^2.0.36",
+    "sass": "^1.62.1",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@iconify-json/ep": "^1.1.10",
+    "@iconify-json/mdi": "^1.1.51",
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@unocss/preset-attributify": "^0.51.12",
+    "@unocss/preset-uno": "^0.51.12",
+    "@unocss/transformer-directives": "^0.51.12",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "prettier": "^2.8.4",
+    "unocss": "^0.51.12",
+    "unplugin-auto-import": "^0.15.3",
+    "unplugin-icons": "^0.16.1",
+    "unplugin-vue-components": "^0.24.1",
+    "vite": "^4.1.3"
+  }
+}
