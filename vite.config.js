@@ -1,12 +1,14 @@
-import { fileURLToPath, URL } from 'node:url'
+import { URL, fileURLToPath } from 'node:url'
 
 import { defineConfig, loadEnv } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 // api 自动引入
 import AutoImport from 'unplugin-auto-import/vite'
+
 // 组件 自动引入
 import Components from 'unplugin-vue-components/vite'
+
 // element, VueUse 组件和指令自动引入解析器
 import {
   ElementPlusResolver,
@@ -16,17 +18,22 @@ import {
 
 // icon 插件
 import Icons from 'unplugin-icons/vite'
+
 // icon 自动引入解析器
 import IconsResolver from 'unplugin-icons/resolver'
+
 // icon 加载 loader
 import { FileSystemIconLoader } from 'unplugin-icons/loaders'
 
 // Unocss 插件
 import Unocss from 'unocss/vite'
+
 // Unocss 默认预设
 import presetUno from '@unocss/preset-uno'
+
 // Unocss 属性模式预设
 import presetAttributify from '@unocss/preset-attributify'
+
 // Unocss 指令转换插件
 import transformerDirective from '@unocss/transformer-directives'
 

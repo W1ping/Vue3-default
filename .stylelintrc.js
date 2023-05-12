@@ -1,7 +1,7 @@
 module.exports = {
   extends: ["stylelint-config-recommended-vue"],
   rules: {
-    'indentation': 4,
+    'indentation': 2,
     'selector-pseudo-element-no-unknown': [
         true,
         {
